@@ -15,7 +15,7 @@ N = 48 participants (24 young, 24 older) viewed images of faces, houses and lett
 and categorized these images as "face vs. noise", "house vs. noise", or "letter vs. noise" in a block design.
 EEG data was collected during each task using Biosemi 128-electrode system sampled at 512 Hz.
 
-Mutual Information (MI) was computed in all participants, at all electrodes and all time points 
+**Mutual Information (MI)** was computed in all participants, at all electrodes and all time points 
 between -300 and 998 ms around stimulus onset, for three contrasts:
 - face vs. noise trials
 - house vs. noise trials
@@ -27,11 +27,11 @@ atd_maxmi_ferp_fnerp.txt [face vs. noise]
 atd_maxmi_herp_hnerp.txt [house vs. noise]
 atd_maxmi_lerp_lnerp.txt [letter vs. noise]
 
-times.txt contains a vector of 650 time points (-300 to 998 ms around stimulus onset)
-age.txt contains ages of all 48 participants
-sex.txt contains sex of all 48 participants, where 0 = female | 1 = male
+**times.txt** contains a vector of 650 time points (-300 to 998 ms around stimulus onset)
+**age.txt** contains ages of all 48 participants
+**sex.txt** contains sex of all 48 participants, where 0 = female | 1 = male
 
-Single-trial EEG data
+**Single-trial EEG data**
 Electrodes of interest were determined for each participant individually by calculating MI about 
 categorical differences: 1) face vs. house, 2) face vs. letter, 3) house vs. letter.
 For each of these categorical differences (contrasts), we computed MI at all time points and electrodes. 
