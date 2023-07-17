@@ -27,6 +27,7 @@ for each of the three contrasts described above.
 - atd_maxmi_herp_hnerp.txt [house vs. noise]
 - atd_maxmi_lerp_lnerp.txt [letter vs. noise]
 
+
 - **times.txt** contains a vector of 650 time points (-300 to 998 ms around stimulus onset)
 - **age.txt** contains ages of all 48 participants
 - **sex.txt** contains sex of all 48 participants, where 0 = female | 1 = male
@@ -48,17 +49,11 @@ For example, for the face vs. house contrast, for one young participant, there a
 where
 
 ferp_herp = face vs. house contrast
-
 f = face trials (condition)
-
 h = house trials (condition)
-
 fn = noise trials during "expecting a face" block (condition)
-
 hn = noise trials during "expecting a house" block (condition)
-
 yp1 = young participant 1 
-
 repeated for 24 young and 24 older participants
 
 As such, there are 24 x 2 x 4 = 192 text files containing single-trial EEG data extracted for individual electrode of interest
