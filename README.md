@@ -49,11 +49,17 @@ For example, for the face vs. house contrast, for one young participant, there a
 where
 
 ferp_herp = face vs. house contrast
+
 f = face trials (condition)
+
 h = house trials (condition)
+
 fn = noise trials during "expecting a face" block (condition)
+
 hn = noise trials during "expecting a house" block (condition)
+
 yp1 = young participant 1 
+
 repeated for 24 young and 24 older participants
 
 As such, there are 24 x 2 x 4 = 192 text files containing single-trial EEG data extracted for individual electrode of interest
