@@ -23,13 +23,13 @@ between -300 and 998 ms around stimulus onset, for three contrasts:
 
 Text files below contain a participants x time points (48 x 650) matrix of maximum MI across electrodes, 
 for each of the three contrasts described above.
-atd_maxmi_ferp_fnerp.txt [face vs. noise]
-atd_maxmi_herp_hnerp.txt [house vs. noise]
-atd_maxmi_lerp_lnerp.txt [letter vs. noise]
+- atd_maxmi_ferp_fnerp.txt [face vs. noise]
+- atd_maxmi_herp_hnerp.txt [house vs. noise]
+- atd_maxmi_lerp_lnerp.txt [letter vs. noise]
 
-**times.txt** contains a vector of 650 time points (-300 to 998 ms around stimulus onset)
-**age.txt** contains ages of all 48 participants
-**sex.txt** contains sex of all 48 participants, where 0 = female | 1 = male
+- **times.txt** contains a vector of 650 time points (-300 to 998 ms around stimulus onset)
+- **age.txt** contains ages of all 48 participants
+- **sex.txt** contains sex of all 48 participants, where 0 = female | 1 = male
 
 **Single-trial EEG data**
 Electrodes of interest were determined for each participant individually by calculating MI about 
@@ -40,18 +40,25 @@ We finally used this electrode to save single-trial EEG data per participant, co
 As such, the following text files contain time points (650) x trials (variable, max = 100) per condition, per participant,
 at the electrode of interest selected using the procedure above.
 For example, for the face vs. house contrast, for one young participant, there are four text files:
-atd_erp_ferp_herp_f_yp1.txt
-atd_erp_ferp_herp_h_yp1.txt
-atd_erp_ferp_herp_fn_yp1.txt
-atd_erp_ferp_herp_hn_yp1.txt
+- atd_erp_ferp_herp_f_yp1.txt
+- atd_erp_ferp_herp_h_yp1.txt
+- atd_erp_ferp_herp_fn_yp1.txt
+- atd_erp_ferp_herp_hn_yp1.txt
 
 where
+
 ferp_herp = face vs. house contrast
+
 f = face trials (condition)
+
 h = house trials (condition)
+
 fn = noise trials during "expecting a face" block (condition)
+
 hn = noise trials during "expecting a house" block (condition)
+
 yp1 = young participant 1 
+
 repeated for 24 young and 24 older participants
 
 As such, there are 24 x 2 x 4 = 192 text files containing single-trial EEG data extracted for individual electrode of interest
